@@ -1,0 +1,42 @@
+.footer {
+    height: 100px;
+    background: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-top: 1px solid rgb(47, 52, 60);
+    font-weight: bold;
+}
+
+.footer__connection {
+    display: flex;
+    gap: 160px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.connection {
+    color: rgb(47, 52, 60);
+}
+
+.footer__icon {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+.icon {
+    width: 80px;
+    height: 40px;
+}
+
+.name {
+    color: rgb(47, 52, 60);
+    
+}

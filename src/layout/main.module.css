@@ -1,0 +1,63 @@
+.key {
+    padding: 100px;
+    font-size: 40px;
+    color: rgb(47, 52, 60);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+    margin-bottom: 20px;
+    width: 400px;
+    gap: 250px
+}
+
+.photo {
+    width: 400px;
+    height: 400px;
+}
+
+.customers {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.customer__photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+    margin-bottom: 20px;
+    width: 400px;
+    gap: 80px
+}
+
+.customer {
+    width: 545px;
+    height: 350px;
+}
+
+.buyer {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.buyer__photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+

@@ -1,0 +1,22 @@
+.key {
+    padding: 100px;
+    font-size: 40px;
+    color: rgb(47, 52, 60);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+    margin-bottom: 20px;
+    width: 400px;
+    gap: 250px
+}
+
+.photo {
+    width: 400px;
+    height: 400px;
+}
