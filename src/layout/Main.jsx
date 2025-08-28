@@ -12,11 +12,11 @@ const Main = () => {
                 </div>
                 <div className={cl.cards}>
                     <div className={cl.card}>
-                        <img className={cl.photo} src="src\Photo\sofa.jpg" alt="" srcSet="" />
+                        <img className={cl.photo} src="./Photo/sofa.jpg" alt="" srcSet="" />
 
-                        <img className={cl.photo} src="src\Photo\bed.jpg" alt="" srcSet="" />
+                        <img className={cl.photo} src="./Photo/bed.jpg" alt="" srcSet="" />
 
-                        <img className={cl.photo} src="src\Photo\Kitchen.jpg" alt="" srcSet="" />
+                        <img className={cl.photo} src="./Photo/Kitchen.jpg" alt="" srcSet="" />
                     </div>
                 </div>
 <div>
@@ -27,15 +27,15 @@ const Main = () => {
 
                 <div className={cl.customer__photo}>
                     <a className={cl.rossg} href="https://rosguard.gov.ru/?ysclid=mesq85e325831440969">
-                        <img className={cl.customer} src="src\Photo\rossg.jpg" alt="" />
+                        <img className={cl.customer} src="./Photo/rossg.jpg" alt="" />
                     </a>
 
                     <a className={cl.sber} href="https://online.sberbank.ru/CSAFront/index.do?ysclid=mesq7nid4r677481064">
-                        <img className={cl.customer} src="src\Photo\sber.jpg" alt="" />
+                        <img className={cl.customer} src="./Photo/sber.jpg" alt="" />
                     </a>
                     
                     <a className={cl.mvd} href="https://78.мвд.рф/?page=67">
-                        <img className={cl.customer} src="src\Photo\mvd.jpg" alt="" />
+                        <img className={cl.customer} src="./Photo/mvd.jpg" alt="" />
                     </a>
                 </div>
 <div>
@@ -46,7 +46,7 @@ const Main = () => {
 
                 <div className={cl.buyer__photo}>
                     <a className={cl.nonton} href="https://nonton.ru/?ysclid=mesq8v4bmq987686400">
-                        <img className={cl.supplier} src="src\Photo\nonton.jpg" alt="" />
+                        <img className={cl.supplier} src="./Photo/nonton.jpg" alt="" />
                     </a>
                 </div>
 
