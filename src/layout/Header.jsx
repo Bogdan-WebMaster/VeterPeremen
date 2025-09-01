@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                 </nav>
                 <button className={cl.button}>
-                    <a href="">
+                    <a href="src\Pages\article.js">
                         стать клиентом
 
                     </a>
