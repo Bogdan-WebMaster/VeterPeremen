@@ -1,10 +1,10 @@
-
+import React from 'react'
 import cl from "./../Pages/article.module.css"
 
 const Article = () => {
 
     return (
-        <>
+       <>
             <header className={cl.header}>
                 <div className={cl.title}>
                     ветер перемен
@@ -40,7 +40,7 @@ const Article = () => {
 
             </main>
 
-             <footer className={cl.footer}>
+             {/* <footer className={cl.footer}>
                             <div className={cl.footer__icon}>
                                 <img className={cl.icon} src="src\Photo\mail.jpg" alt=""/>
                                 <img className={cl.icon} src="src\Photo\phone.png" alt="" />
@@ -60,7 +60,7 @@ const Article = () => {
                                     @Piramida_polet
                                 </a>
                             </div>
-                        </footer>
+                        </footer> */}
 
 
         </>
