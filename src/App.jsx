@@ -4,10 +4,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Footer from './layout/Footer'
-import Header from './layout/Header'
+
 import Main from './layout/Main'
-// import Home from './Pages'
 import Article from './Pages/article.jsx'
 
 function App() {
@@ -16,15 +14,15 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
+
         <Routes>
-          {/* <Route exact path="/" element={<Home />} /> */}
+          <Route path="/" element={<Main />} />
           <Route path="/article" element={<Article />} />
 
         </Routes>
       </Router>
-      <Main />
-      <Footer />
+
+
     </>
 
   )

@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import cl from "./header.module.css"
 
 const Header = () => {
@@ -23,16 +23,20 @@ const Header = () => {
                                 <a href=""> <label for="menuCheckbox" onclick="this.parentNode.click();">Контакты</label> </a>
                             </li>
                             <li>
-                                <a href=""> <label for="menuCheckbox" onclick="this.parentNode.click();">Католог</label> </a>
+                                <a href="https://nonton.ru/?ysclid=mfbceqouss856404059&city_confirm=Y"> <label for="menuCheckbox" onclick="this.parentNode.click();">Католог</label> </a>
                             </li>
                         </ul>
                     </div>
                 </nav>
                 <button className={cl.button}>
-                    <a href="src\Pages\article.jsx">
-                        стать клиентом
+                   
+                   <Link to="/article">
+                   стать клиентом
+                   </Link>
 
-                    </a>
+                     
+
+                   
                 </button>
             </header>
         </>
